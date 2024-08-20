@@ -16,7 +16,7 @@ const App = () => {
 
     setLoading(true);
     const apiUrl = 'https://api.apify.com/v2/acts/apify~instagram-comment-scraper/run-sync-get-dataset-items';
-    const token = 'apify_api_UV83Z7PL6BAGFkvfuO22YDWnNhwBBM0LEJkI'; // Your Apify API token
+    const token = 'apify_api_B4yBvkAefQBpQjHcTh2aPBB9dBmTgQ2KpRJ4'; // Your Apify API token
     const input = {
       directUrls: [postUrl],
       resultsType: 'comments'
